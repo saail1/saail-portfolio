@@ -269,7 +269,8 @@ export default function App() {
               >
                 LinkedIn_Profile
               </a>
-              {/* Footer Section */}
+           </div>
+           {/* Footer Section */}
       <footer className="bg-black/50 backdrop-blur-md border-t border-white/10 mt-20 py-8">
         <div className="container mx-auto px-6 text-center">
           <p className="text-gray-400 font-mono text-sm">
@@ -277,13 +278,12 @@ export default function App() {
             All rights reserved.
           </p>
           <div className="flex justify-center gap-6 mt-4 opacity-70">
-            <a href="https://github.com/YOUR_GITHUB" className="hover:text-green-400 transition-colors text-sm">GitHub</a>
-            <a href="https://linkedin.com/in/YOUR_LINKEDIN" className="hover:text-green-400 transition-colors text-sm">LinkedIn</a>
-            <a href="mailto:YOUR_EMAIL@gmail.com" className="hover:text-green-400 transition-colors text-sm">Email</a>
+            <a href="https://github.com/YOUR_GITHUB" className="hover:text-green-400 transition-colors text-sm"target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/saailabbas" className="hover:text-green-400 transition-colors text-sm"target="_blank">LinkedIn</a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=maliksaail342@gmail.com" className="hover:text-green-400 transition-colors text-sm"target="_blank">Email</a>
           </div>
         </div>
       </footer>
-           </div>
         </section>
 
       </main>
