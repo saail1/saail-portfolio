@@ -287,10 +287,6 @@ export default function App() {
         </section>
 
       </main>
-
-      <footer className="py-8 text-center text-slate-600 text-sm border-t border-white/5 font-mono">
-        <p>git commit -m "2026 Portfolio" | Built by Saail</p>
-      </footer>
     </div>
   );
 }
