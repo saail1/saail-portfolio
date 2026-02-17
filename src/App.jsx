@@ -270,17 +270,64 @@ export default function App() {
                 LinkedIn_Profile
               </a>
            </div>
-           {/* Footer Section */}
-      <footer className="bg-black/50 backdrop-blur-md border-t border-white/10 mt-20 py-8">
-        <div className="container mx-auto px-6 text-center">
-          <p className="text-gray-400 font-mono text-sm">
-            © {new Date().getFullYear()} <span className="text-green-400 font-bold">Saail</span>. 
-            All rights reserved.
-          </p>
-          <div className="flex justify-center gap-6 mt-4 opacity-70">
-            <a href="https://github.com/YOUR_GITHUB" className="hover:text-green-400 transition-colors text-sm"target="_blank">GitHub</a>
-            <a href="https://www.linkedin.com/in/saailabbas" className="hover:text-green-400 transition-colors text-sm"target="_blank">LinkedIn</a>
-            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=maliksaail342@gmail.com" className="hover:text-green-400 transition-colors text-sm"target="_blank">Email</a>
+           {/* Hacker Style Footer */}
+      <footer className="border-t border-green-900/20 bg-black mt-24 py-8 relative overflow-hidden">
+        
+        {/* Background Grid Effect */}
+        <div className="absolute inset-0 bg-[linear-gradient(to_right,#0f0f0f_1px,transparent_1px),linear-gradient(to_bottom,#0f0f0f_1px,transparent_1px)] bg-[size:14px_24px] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)] pointer-events-none"></div>
+
+        <div className="container mx-auto px-6 relative z-10">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-6">
+            
+            {/* Left: Terminal Path Style */}
+            <div className="font-mono text-sm text-gray-500 flex items-center gap-2">
+              <span className="text-green-600">➜</span> 
+              <span>~/saail/portfolio</span> 
+              <span className="text-blue-500 text-xs bg-blue-500/10 px-2 py-0.5 rounded">git:main</span>
+            </div>
+
+            {/* Center: Copyright */}
+            <div className="text-center">
+              <p className="text-gray-400 font-mono text-sm">
+                Designed & Built by <span className="text-green-400 font-bold hover:shadow-[0_0_15px_rgba(74,222,128,0.5)] transition-all cursor-pointer">Saail</span>
+              </p>
+            </div>
+
+            {/* Right: Social Links (Updated) */}
+            <div className="flex gap-6 font-mono text-sm">
+              
+              {/* GitHub (Agar link hai to yahan href mein dal dena) */}
+              <a 
+                href="https://github.com/saail-dev" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-500 hover:text-white transition-colors"
+              >
+                /github
+              </a>
+
+              {/* LinkedIn (Updated) */}
+              <a 
+                href="https://www.linkedin.com/in/saailabbas" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-500 hover:text-blue-400 transition-colors"
+              >
+                /linkedin
+              </a>
+
+              {/* Email (Updated - Direct Compose) */}
+              <a 
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=maliksaail342@gmail.com" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-500 hover:text-green-400 transition-colors"
+              >
+                /email
+              </a>
+
+            </div>
+
           </div>
         </div>
       </footer>
