@@ -74,7 +74,7 @@ export default function App() {
           </h1>
           <a 
             href="/resume.pdf" 
-            download="Saail_Resume.pdf"
+            download="resume.pdf"
             className="flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white px-4 py-2 rounded-lg text-sm font-mono transition-all border border-white/10"
           >
             <Download size={16} /> Download_CV
